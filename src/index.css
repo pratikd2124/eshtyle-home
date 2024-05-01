@@ -5,6 +5,39 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.swiper-slide-active img {
+	transform: scale(1.4);  /* Makes the image 10% larger */
+	transition: transform 0.5s;  /* Smooth transition for scaling */
+  }
+  @media (max-width: 640px) { /* Adjust this breakpoint as needed */
+	.swiper-slide-active img {
+	  transform: scale(1.4); /* No scaling on mobile */
+	}
+  }
+
+  @keyframes marqueeRight {
+	from {
+	  transform: translateX(0%);
+	}
+	to {
+	  transform: translateX(-100%);
+	}
+  }
+  
+  @keyframes marqueeLeft {
+	from {
+	  transform: translateX(-100%);
+	}
+	to {
+	  transform: translateX(0%);
+	}
+  }
+  .animate-marquee {
+	animation: marquee 10s linear infinite;
+  }
+
+
 @layer base {
   :root {
     /* --background: rgb(241 245 249); */
