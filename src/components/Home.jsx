@@ -8,7 +8,8 @@ import CollectionCards from './CollectionCards'
 import FeaturedCollection from './FeaturedCollection'
 import TryOnSample from './TryOnSample'
 import WhyUs from './WhyUs'
-
+import Details from './Details'
+import CTA from './CTA';
 const Home = () => {
   return (
       <>
@@ -17,10 +18,11 @@ const Home = () => {
               <Hero />
               <WhyUs/>
               <Intro />
-
+              
               <CollectionCards  />
               <FeaturedCollection/>
-
+              <Details />
+              <CTA />
               <Footer />
         
             </div>
