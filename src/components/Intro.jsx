@@ -6,7 +6,7 @@ const Intro = () => {
       <>
           <div className="">
               
-                <div className="animate__animated animate__fadeIn delay-2000 relative w-full h-screen  mx-auto px-4 mt-24">
+                <div className="animate__animated animate__fadeIn delay-2000 relative w-full h-screen  mx-auto px-4 ">
                   <div className="absolute max-w-7xl mx-auto top-20 inset-0 z-10">
                       <div className="relative w-full  h-full">
                             <div className="hidden md:block absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-[100px]  group-hover:-inset-1 group-hover:duration-200 "></div>

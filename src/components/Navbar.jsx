@@ -135,18 +135,18 @@ const Navbar = () => {
           </div>
         </div>
         {isDropdownOpenMobile && (
-          <div className="md:hidden animate__animated animate__fadeIn ">
-            <a href="#" className="block text-white py-2 px-4">
-              Home
+          <div className="md:hidden animate__animated animate__fadeIn px-6  ">
+            <a href="#" className="block text-white py-4 px-4 hover:bg-white/10 transition ease-in-out border-b border-gray-700">
+              Blog
             </a>
-            <a href="#" className="block text-white py-2 px-4">
-              About
+            <a href="#" className="block text-white py-4 px-4 hover:bg-white/10 transition ease-in-out border-b border-gray-700">
+              Login
             </a>
-            <a href="#" className="block text-white py-2 px-4">
-              Services
+            <a href="#" className="block text-white py-4 px-4 hover:bg-white/10 transition ease-in-out border-b border-gray-700">
+              Virtual
             </a>
-            <a href="#" className="block text-white py-2 px-4">
-              Contact
+            <a href="#" className="block text-white py-4 px-4 hover:bg-white/10 transition ease-in-out border-b border-gray-700">
+              Profile
             </a>
           </div>
         )}

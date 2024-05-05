@@ -5,6 +5,9 @@ import Footer from './Footer'
 import Intro from './Intro'
 import TopCollection from './TopCollection'
 import CollectionCards from './CollectionCards'
+import FeaturedCollection from './FeaturedCollection'
+import TryOnSample from './TryOnSample'
+import WhyUs from './WhyUs'
 
 const Home = () => {
   return (
@@ -12,11 +15,12 @@ const Home = () => {
             <div className="min-h-screen bg-black text-white">
               <Navbar />
               <Hero />
+              <WhyUs/>
               <Intro />
 
-              <div className='text-sm max-w-4xl mx-auto my-16'>Not completed </div>
-        <TopCollection />
-        <CollectionCards  />
+              <CollectionCards  />
+              <FeaturedCollection/>
+
               <Footer />
         
             </div>
